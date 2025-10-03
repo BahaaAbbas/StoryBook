@@ -1,0 +1,73 @@
+/* Base button */
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid transparent;
+}
+
+/* Sizes */
+.btn.small {
+  font-size: 12px;
+  padding: 4px 8px;
+}
+.btn.medium {
+  font-size: 14px;
+  padding: 6px 12px;
+}
+.btn.large {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+/* Variants */
+.btn.primary {
+  color: white;
+}
+.btn.secondary {
+  background: white;
+}
+.btn.text {
+  background: none;
+  border: none;
+  padding: 0;
+}
+.btn.text:hover {
+  text-decoration: underline;
+}
+
+/* Colors */
+.btn.blue.primary,
+.btn.blue.secondary {
+  border-color: #007bff;
+  background: #007bff;
+  color: white;
+}
+.btn.blue.secondary {
+  background: white;
+  color: #007bff;
+}
+
+.btn.red.primary,
+.btn.red.secondary {
+  border-color: #dc3545;
+  background: #dc3545;
+  color: white;
+}
+.btn.red.secondary {
+  background: white;
+  color: #dc3545;
+}
+
+.btn.green.primary,
+.btn.green.secondary {
+  border-color: #28a745;
+  background: #28a745;
+  color: white;
+}
+.btn.green.secondary {
+  background: white;
+  color: #28a745;
+}
